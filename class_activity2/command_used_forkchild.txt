@@ -1,0 +1,15 @@
+  647  cat forkchild.c 
+  648  ls
+  649  cd class_activity2/
+  650  ls
+  651  cat forkchild.c 
+  652  rm *
+  653  ls
+  654  vim forkchild.c
+  655  gcc -o forkchild forkchild.c 
+  656  ls
+  657  ll
+  658  ./forkchild 
+  659  ./forkchild > result_forkchild.txt
+  660  cat result_forkchild.txt 
+  661  history | tail -n 15 > command_used_forkchild.txt
