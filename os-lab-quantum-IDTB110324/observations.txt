@@ -1,0 +1,8 @@
+Run 1: 82
+Run 2: 78
+Run 3: 64
+Run 4: 53
+Run 5: 40
+
+Explanation:
+The result changes due to OS scheduling. Multiple processes access the file at the same time, causing race conditions where updates overwrite each other.
